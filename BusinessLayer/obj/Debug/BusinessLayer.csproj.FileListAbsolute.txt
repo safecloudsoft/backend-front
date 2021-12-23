@@ -1,0 +1,15 @@
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.pdb
