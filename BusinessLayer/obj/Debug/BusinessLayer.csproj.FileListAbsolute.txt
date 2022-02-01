@@ -13,3 +13,4 @@ C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.csproj.Co
 C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\serif\source\repos\ymgk\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\serif\source\repos\ymgk\BusinessLayer\bin\Debug\BusinessLayer.dll.config

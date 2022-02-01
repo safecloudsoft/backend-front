@@ -58,13 +58,13 @@
     <Compile Include="Migrations\202110311947573_PhoneSütunuEklendi.designer.cs">
       <DependentUpon>202110311947573_PhoneSütunuEklendi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202112210136330_Image.cs" />
-    <Compile Include="Migrations\202112210136330_Image.designer.cs">
-      <DependentUpon>202112210136330_Image.cs</DependentUpon>
+    <Compile Include="Migrations\202112290946292_migdateupdate.cs" />
+    <Compile Include="Migrations\202112290946292_migdateupdate.designer.cs">
+      <DependentUpon>202112290946292_migdateupdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202112210143183_image.cs" />
-    <Compile Include="Migrations\202112210143183_image.designer.cs">
-      <DependentUpon>202112210143183_image.cs</DependentUpon>
+    <Compile Include="Migrations\202112290950406_migdateupdate1.cs" />
+    <Compile Include="Migrations\202112290950406_migdateupdate1.designer.cs">
+      <DependentUpon>202112290950406_migdateupdate1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +77,11 @@
     <EmbeddedResource Include="Migrations\202110311947573_PhoneSütunuEklendi.resx">
       <DependentUpon>202110311947573_PhoneSütunuEklendi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202112210136330_Image.resx">
-      <DependentUpon>202112210136330_Image.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202112290946292_migdateupdate.resx">
+      <DependentUpon>202112290946292_migdateupdate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202112210143183_image.resx">
-      <DependentUpon>202112210143183_image.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202112290950406_migdateupdate1.resx">
+      <DependentUpon>202112290950406_migdateupdate1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

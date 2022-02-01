@@ -1,48 +1,142 @@
-﻿
+﻿@model IEnumerable<EntityLayer.Concrete.User>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Layout.cshtml";
 }
 
 <!DOCTYPE html>
+
 <html>
-<head>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
 
-        .column {
-            float: left;
-            width: 33.33%;
-            padding: 5px;
-        }
 
-        /* Clearfix (clear floats) */
-        .row::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-    </style>
-</head>
-<body>
+<body class="hold-transition sidebar-mini">
 
-    <h2>Images Side by Side</h2>
-    <p>How to create side-by-side images with the CSS float property:</p>
+    <div class="wrapper">
 
-    <div class="row">
-        <div class="column">
-            <img src="img_snow.jpg" alt="Snow" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="img_forest.jpg" alt="Forest" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-        </div>
+        <section class="content">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <!-- /.col -->
+
+                    <div class="col-md-12">
+
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <div class="tab-content">
+                                    <form class="form-horizontal">
+                                        @foreach (var item in Model)
+                                        {
+
+
+                                            <div class="form-group row">
+
+                                                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+
+                                                <div class="col-sm-10">
+
+                                                    <input type="email" class="form-control" id="inputName" value="@item.UserName">
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group row">
+
+                                                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+
+                                                <div class="col-sm-10">
+
+                                                    <input type="email" class="form-control" id="inputEmail" value="@item.Mail">
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group row">
+
+                                                <label for="inputName2" class="col-sm-2 col-form-label">Telefon Numarası</label>
+
+                                                <div class="col-sm-10">
+
+                                                    <input type="tel" class="form-control" id="inputName2" value="@item.PhoneNumber">
+
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group row">
+
+                                                <label for="inputName2" class="col-sm-2 col-form-label">Parola</label>
+
+                                                <div class="col-sm-10">
+
+                                                    <input type="password" class="form-control" id="inputName2" placeholder="Mevcut Parolanızı giriniz">
+
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group row">
+
+                                                <label for="inputName2" class="col-sm-2 col-form-label">Parola</label>
+
+                                                <div class="col-sm-10">
+
+                                                    <input type="password" class="form-control" id="inputName2" placeholder="Yeni Parola">
+
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+
+
+                                            <div class="form-group row">
+
+                                                <div class="offset-sm-2 col-sm-10">
+
+                                                    <button type="submit" class="btn btn-danger">Düzenle</button>
+
+                                                </div>
+
+                                            </div>
+                                        }
+                                    </form>
+
+                                </div>
+
+                                <!-- /.tab-content -->
+
+                            </div><!-- /.card-body -->
+
+                        </div>
+
+                        <!-- /.nav-tabs-custom -->
+
+                    </div>
+
+                    <!-- /.col -->
+
+                </div>
+
+                <!-- /.row -->
+
+            </div><!-- /.container-fluid -->
+
+        </section>
+
+        <!-- /.content -->
+
     </div>
 
-</body>
-</html>
 
+
+</body>
+
+</html>

@@ -89,3 +89,4 @@ C:\Users\serif\source\repos\ymgk\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cach
 C:\Users\serif\source\repos\ymgk\Mvc\obj\Debug\Mvc.csproj.CopyComplete
 C:\Users\serif\source\repos\ymgk\Mvc\obj\Debug\Mvc.dll
 C:\Users\serif\source\repos\ymgk\Mvc\obj\Debug\Mvc.pdb
+C:\Users\serif\source\repos\ymgk\Mvc\bin\BusinessLayer.dll.config

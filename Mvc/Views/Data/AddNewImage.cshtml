@@ -1,0 +1,16 @@
+﻿@model EntityLayer.Concrete.User
+@{
+    ViewBag.Title = "AddNewImage";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("AddNewImage", "Data", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <p>ıd</p>
+        @Html.TextBoxFor(x => x.UserId)
+        <input type="file" name="Image" />
+        <input type="submit" value="Yükle" />
+    </div>
+}
+

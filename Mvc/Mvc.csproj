@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -2384,9 +2385,12 @@
     <Content Include="Views\Shared\Layout.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Login\UserRegister.cshtml" />
+    <Content Include="Views\Data\DataList.cshtml" />
+    <Content Include="Views\Data\AddNewImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Image\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
